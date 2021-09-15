@@ -1,16 +1,18 @@
 body {
-    background: #6f283952;
+    background: url(../img/1.jpg!d);
     margin: 0px;
 }
 
 .enter h1 {
     padding-bottom: 20px;
     margin: 0;
+    color: white;
 }
 
 .text {
     padding-bottom: 15px;
-    color: #FF0040;
+    color: #0f0469;
+    ;
     align-items: center;
 }
 
@@ -19,21 +21,22 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: white;
+    background: #ffffff52;
     padding: 40px 0px;
     flex-shrink: 5;
     width: 30em;
     margin: 0 auto;
     margin-top: 10%;
-    border-radius: 70px;
+    border-radius: 7px;
 }
 
 button {
     font-size: 90%;
     font-weight: bold;
-    background-color: rgb(255, 255, 255);
-    border-color: #FF0040;
-    border-radius: 20px;
+    background-color: transparent;
+    border-color: white;
+    color: #0f0469;
+    border-radius: 2px;
     padding: 10px;
     width: 100%;
     text-align: center;
@@ -44,8 +47,9 @@ button {
 
 button:hover {
     color: white;
-    background: #FF0040;
+    background: #0f0469;
     transition: 0.25s;
+    border-color: #0f0469;
 }
 
 input {
@@ -56,6 +60,8 @@ input {
     width: 100%;
     font-size: 90%;
     border-width: 1px;
+    background-color: transparent;
+    border-color: white;
 }
 
 input:focus {
@@ -64,9 +70,6 @@ input:focus {
 }
 
 @media screen and (max-width: 500px) {
-    body {
-        background: white;
-    }
     .enter {
         width: 100%;
     }
